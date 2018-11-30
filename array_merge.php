@@ -1,8 +1,8 @@
 <?php
 
-$array1 = ['test' => 'original', 1 => 'value1'];
+$array1 = [0 => 'original', 1 => 'value1'];
 
-$array2 = ['test' => 'newvalue', 2 => 'addedvalue'];
+$array2 = [0 => 'newvalue', 2 => 'addedvalue'];
 
 var_dump(array_merge($array1, $array2));
 
